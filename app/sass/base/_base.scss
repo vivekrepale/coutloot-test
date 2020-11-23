@@ -32,7 +32,10 @@ html {
 
 body {
 	box-sizing: border-box;
-	// background-color: $color-white;
+	font-family: $generalFont;
+	font-size: 16px;
+	font-weight: 400;
+	background-color: #eae9e5;
 	// color: $color-black;
 	// padding: 1rem;
 	// @include bodyText;

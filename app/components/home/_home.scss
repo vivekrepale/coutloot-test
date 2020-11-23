@@ -1,0 +1,9 @@
+.home-container {
+	background-color: $color-grey-star;
+	min-height: 100vh;
+	display: grid;
+	// grid-template-columns: 1fr;
+	grid-gap: 3rem;
+	align-content: center;
+	justify-content: center;
+}

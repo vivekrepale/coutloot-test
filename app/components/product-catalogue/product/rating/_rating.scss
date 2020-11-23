@@ -1,0 +1,12 @@
+.rating-container {
+	display: grid;
+	grid-template-columns: repeat(5, min-content);
+	grid-gap: 3px;
+	align-items: center;
+	margin-top: 4px;
+
+	&__svg-grey {
+		height: 12px;
+		width: 12px;
+	}
+}

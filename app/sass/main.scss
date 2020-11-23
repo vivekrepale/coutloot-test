@@ -4,4 +4,17 @@
 @import "base/typography";
 @import "base/base";
 
-@import "../components/layout/_layout.scss";
+@import "utilities/button";
+@import "utilities/toggle-button";
+
+@import "../layout/_layout.scss";
+
+@import "../components/home/_home.scss";
+
+@import "../components/product-catalogue/_product-catalogue.scss";
+@import "../components/product-catalogue/product/_product.scss";
+@import "../components/product-catalogue/product/rating/_rating.scss";
+@import "../components/product-catalogue/navbar/_navbar.scss";
+@import "../components/product-catalogue/filters/_filter.scss";
+
+@import "../components/product-details/_product-details.scss";
