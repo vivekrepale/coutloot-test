@@ -1,0 +1,77 @@
+//font families
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+$generalFont: "Montserrat", san-serif;
+
+// //bodyText mixin
+// @mixin bodyText {
+// 	font-family: $generalFont;
+// 	font-size: 1.6rem;
+// 	line-height: 1.65;
+// 	font-weight: 400;
+// }
+
+// @mixin bodyTextSmall {
+// 	font-family: $generalFont;
+// 	font-size: 1.4rem;
+// 	line-height: 1.65;
+// 	font-weight: 400;
+// }
+
+// //heading mixins
+// @mixin heading1 {
+// 	font-family: $generalFont;
+// 	font-size: 5.6rem;
+// 	line-height: 1.15;
+// 	font-weight: 700;
+// }
+// @mixin heading2 {
+// 	font-family: $generalFont;
+// 	font-size: 5.06rem;
+// 	line-height: 1.15;
+// 	font-weight: 700;
+// }
+// @mixin heading3 {
+// 	font-family: $generalFont;
+// 	font-size: 3.37rem;
+// 	line-height: 1.15;
+// 	font-weight: 700;
+// }
+// @mixin heading4 {
+// 	font-family: $generalFont;
+// 	font-size: 2.25rem;
+// 	line-height: 1.15;
+// 	font-weight: 700;
+// }
+// @mixin heading5 {
+// 	font-family: $generalFont;
+// 	font-size: 1.8rem;
+// 	line-height: 1.15;
+// 	font-weight: 700;
+// }
+// @mixin heading6 {
+// 	font-family: $generalFont;
+// 	font-size: 1.6rem;
+// 	line-height: 1.15;
+// 	font-weight: 700;
+// }
+// @mixin heading7 {
+// 	font-family: $generalFont;
+// 	font-size: 1.4rem;
+// 	line-height: 1.15;
+// 	font-weight: 700;
+// }
+
+// //button text
+// @mixin buttonText {
+// 	font-family: $generalFont;
+// 	font-size: 1.5rem;
+// 	line-height: 1.15;
+// 	font-weight: 400;
+// }
+
+// //logo text
+// @mixin logoText {
+// 	font-family: $securbotFont;
+// 	font-size: 1.5rem;
+// 	line-height: 1.15;
+// }

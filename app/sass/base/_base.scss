@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+
+	@media only screen and (max-width: 55em) {
+		padding: 0;
+	}
+
+	@media only screen and (max-width: 68.5em) {
+		font-size: 60%;
+	}
+
+	@media only screen and (max-width: 68.5em) {
+		font-size: 59%;
+	}
+
+	@media only screen and (max-width: 59.375em) {
+		font-size: 57%;
+	}
+
+	// @media only screen and (max-width: 55em) {
+	// 	font-size: 50%;
+	// }
+}
+
+body {
+	box-sizing: border-box;
+	// background-color: $color-white;
+	// color: $color-black;
+	// padding: 1rem;
+	// @include bodyText;
+
+	@media only screen and (max-width: 57.25em) {
+		padding: 0;
+	}
+}
