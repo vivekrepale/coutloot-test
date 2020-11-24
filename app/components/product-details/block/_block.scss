@@ -1,0 +1,48 @@
+.block {
+	display: grid;
+	// align-content: center;
+
+	&__title {
+		background-color: $color-light-grey;
+		height: 35px;
+		width: 100%;
+		padding: 0 16px;
+		display: grid;
+		// grid-template-columns: 1fr;
+		grid-gap: 8px;
+		align-content: center;
+
+		&__title {
+			color: $color-text-grey-d;
+			font-size: 12px;
+			font-weight: 600;
+		}
+
+		&__sub-title {
+			justify-self: end;
+			font-size: 10px;
+			font-weight: 500;
+			color: $color-dark-red;
+		}
+
+		&__svg {
+			height: 14px;
+			width: 14px;
+			transform: rotate(-20deg);
+		}
+	}
+
+	&__content {
+		background-color: $color-white;
+		font-size: 12px;
+		font-weight: 500;
+		padding: 12px 16px;
+		color: $color-heart-black;
+		width: 375px;
+
+		&--similar-products {
+			background-color: $color-light-grey;
+			padding: 0 0 0 16px;
+		}
+	}
+}

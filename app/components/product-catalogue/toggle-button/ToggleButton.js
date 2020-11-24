@@ -3,9 +3,9 @@ import React, { Fragment } from "react";
 const ToggleButton = () => {
 	return (
 		<Fragment>
-			<label class="toggle-button">
+			<label className="toggle-button">
 				<input type="checkbox" />
-				<span class="slider round"></span>
+				<span className="slider round"></span>
 			</label>
 		</Fragment>
 	);

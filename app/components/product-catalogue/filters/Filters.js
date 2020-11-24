@@ -7,35 +7,55 @@ const Filters = () => {
 				<label for="cars">
 					<h3 className="filters-container__block__text">Sort by</h3>
 				</label>
-				<div className="custom-select">
-					<select className="select" name="cars" id="cars">
-						<option value="volvo">Volvo</option>
-						<option value="saab">Saab</option>
-						<option value="opel">Opel</option>
-						<option value="audi">Audi</option>
-					</select>
-				</div>
+
+				<select className="select" name="sort by" id="sort by">
+					<option className="select__options" value="select">
+						Select
+					</option>
+					<option className="select__options" value="HtoL">
+						High to low
+					</option>
+					<option className="select__options" value="LtoH">
+						Low to high
+					</option>
+				</select>
 			</div>
 			<div className="filters-container__block middle">
 				<label for="cars">
 					<h3 className="filters-container__block__text">Filters</h3>
 				</label>
-				<select className="select" name="cars" id="cars">
-					<option value="volvo">Volvo</option>
-					<option value="saab">Saab</option>
-					<option value="opel">Opel</option>
-					<option value="audi">Audi</option>
+				<select className="select" name="filters" id="filters">
+					<option className="select__options" value="select">
+						Select
+					</option>
+					<option className="select__options" value="price">
+						Price
+					</option>
+					<option className="select__options" value="type">
+						Type
+					</option>
+					<option className="select__options" value="location">
+						Location
+					</option>
 				</select>
 			</div>
 			<div className="filters-container__block">
 				<label for="cars">
 					<h3 className="filters-container__block__text">Nearby</h3>
 				</label>
-				<select className="select" name="cars" id="cars">
-					<option value="volvo">Volvo</option>
-					<option value="saab">Saab</option>
-					<option value="opel">Opel</option>
-					<option value="audi">Audi</option>
+				<select className="select" name="near by" id="near by">
+					<option className="select__options" value="select">
+						Select
+					</option>
+					<option className="select__options" value="saab">
+						Mumbai
+					</option>
+					<option className="select__options" value="opel">
+						Pune
+					</option>
+					<option className="select__options" value="audi">
+						Bangaluru
+					</option>
 				</select>
 			</div>
 		</div>

@@ -1,0 +1,66 @@
+.seller-details-container {
+	background-color: $color-light-grey;
+
+	&__seller {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		padding: 0 16px;
+		align-items: center;
+		min-height: 36px;
+
+		&__left {
+			display: grid;
+			grid-template-columns: min-content max-content;
+			grid-gap: 10px;
+
+			img {
+				width: 36px;
+				height: 36px;
+				border-radius: 100%;
+			}
+
+			&__right {
+				display: grid;
+
+				h2 {
+					font-size: 14px;
+					font-weight: 500;
+					color: black;
+				}
+
+				h3 {
+					font-size: 10px;
+					font-weight: 400;
+					color: $color-text-city;
+				}
+			}
+		}
+		&__right {
+			justify-self: end;
+
+			button {
+				background-image: linear-gradient(
+					to right,
+					$color-bg-orange,
+					$color-bg-red
+				);
+				width: 63px;
+				height: 17px;
+				border: none;
+				border-radius: 100px;
+				color: $color-white;
+				cursor: pointer;
+				letter-spacing: -0.02px;
+				font: 600 10px $generalFont;
+			}
+		}
+	}
+
+	&__more-products {
+		display: grid;
+		grid-auto-flow: column;
+		overflow-x: auto;
+		grid-gap: 8px;
+		padding: 0 0 0 16px;
+	}
+}

@@ -1,0 +1,35 @@
+.cta-container {
+	min-height: 81px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	padding: 0 16px;
+	box-shadow: 0px -3px 12px #0000001c;
+	border: 1px solid #d8d8d8;
+	border-radius: 19px 19px 0px 0px;
+	align-items: center;
+
+	&__button {
+		cursor: pointer;
+		border: none;
+		width: 168px;
+		height: 42px;
+		border-radius: 100px;
+		font-size: 13px;
+		font-weight: 600;
+		font-family: $generalFont;
+
+		&--lred {
+			background-color: $color-light-red;
+			color: $color-dark-red;
+		}
+		&--dred {
+			background-image: linear-gradient(
+				to right,
+				$color-bg-red,
+				$color-bg-orange
+			);
+			color: white;
+		}
+	}
+}

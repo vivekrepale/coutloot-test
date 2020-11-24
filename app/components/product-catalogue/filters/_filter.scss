@@ -32,11 +32,6 @@
 	}
 }
 
-// .middle {
-// 	border-left: 2px solid $color-light-grey;
-// 	border-right: 2px solid $color-light-grey;
-// }
-
 .select {
 	width: 59px;
 	height: 13px;
@@ -44,9 +39,29 @@
 	font-size: 10px;
 	font-weight: 500;
 	border: none;
-	// height: 34px;
+	color: $color-dropdown; // height: 20px;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	// background-image: url("../../../assets/images/arrows_up.png") 100% no-repeat;
+	background-image: url("https://img.icons8.com/fluent-systems-filled/48/000000/expand-arrow.png");
+	background-repeat: no-repeat;
+	background-position: 80% 150%;
+	background-size: 10px 10px;
+	background-attachment: fixed;
+	cursor: pointer;
+
+	&__options {
+		// padding: 5px 20px;
+		font-family: $generalFont;
+		font-size: 12px;
+		font-weight: 500;
+		// border: none;
+		// background-color: $color-bg-orange;
+	}
+}
+
+.middle {
+	&:before,
+	&:after {
+	}
 }

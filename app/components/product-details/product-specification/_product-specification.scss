@@ -1,0 +1,25 @@
+.product-specification-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 6px;
+
+	&__specification {
+		display: grid;
+		grid-template-columns: 119px 1fr;
+
+		&__key {
+			font-size: 13px;
+			font-weight: 400;
+
+			&::first-letter {
+				text-transform: uppercase;
+			}
+		}
+
+		&__value {
+			color: $color-text-value;
+			font-size: 14px;
+			font-weight: 600;
+		}
+	}
+}

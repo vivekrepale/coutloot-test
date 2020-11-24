@@ -1,0 +1,32 @@
+.dilevery-details-block-container {
+	display: grid;
+	grid-gap: 15px;
+
+	&__dilevery-details-block {
+		display: grid;
+		grid-template-columns: max-content 1fr;
+		grid-gap: 15px;
+		align-items: center;
+		align-content: center;
+
+		&__svg-container {
+			height: 23px;
+			width: 27px;
+			border: 2px solid $color-light-grey;
+			display: grid;
+			// padding: 6px;
+			justify-items: center;
+			align-items: center;
+
+			&__svg {
+				height: 15px;
+				width: 15px;
+			}
+		}
+
+		h2 {
+			font-size: 12px;
+			font-weight: 500;
+		}
+	}
+}

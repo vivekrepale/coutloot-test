@@ -1,0 +1,164 @@
+{
+	"success": 1,
+	"session": "test",
+	"product": {
+		"productId": 21,
+		"productType": "REGULER",
+		"status": "APPROVED",
+		"quantity": 1,
+		"sellerDetails": {
+			"userId": 72,
+			"name": "Mahendra",
+			"profilePic": "https://cdn2.coutloot.com/images/newAPP/userProfiles/E.png",
+			"city": "Surat",
+			"moreProducts": "NA"
+		},
+		"images": {
+			"mainImages": [
+				"https://coutloot-cdn.gumlet.com/listingImages/image_2q0pp17np39_1596186841542.jpeg?width=800"
+			],
+			"submittedImages": [
+				"https://coutloot-cdn.gumlet.com/listingImages/image_2q0pp17np39_1596186841542.jpeg?width=350"
+			],
+			"thumbImages": [
+				"https://coutloot-cdn.gumlet.com/listingImages/image_2q0pp17np39_1596186841542.jpeg?width=350"
+			]
+		},
+		"details": {
+			"title": "Nike Joyride White Trendy Shoes",
+			"condition": "New without tag",
+			"brand": "OTHER",
+			"variantAttribute": "size",
+			"productAttributes": [
+				{ "key": "brand", "value": "OTHER" },
+				{ "key": "condition", "value": "New without tag" },
+				{ "key": "color", "value": "White" }
+			],
+			"variants": [
+				{
+					"default": 1,
+					"sku": "hjc3_0",
+					"variantName": "10",
+					"priceDetails": {
+						"labelPrice": 15999,
+						"listedPrice": 2599,
+						"percentOff": 84,
+						"commisionPercent": 15,
+						"commision": 389,
+						"pickupCharges": 50,
+						"userEarning": 2160
+					},
+					"quantity": 1,
+					"negotiated": {
+						"price": 2469,
+						"percentOff": 85,
+						"offerText": "Price has drop from Rs.15999 to Rs.2469",
+						"endTime": "2020-08-05 06:00:00"
+					}
+				},
+				{
+					"default": 0,
+					"sku": "hjc3_1",
+					"variantName": "8",
+					"priceDetails": {
+						"labelPrice": 15999,
+						"listedPrice": 2599,
+						"percentOff": 84,
+						"commisionPercent": 15,
+						"commision": 389,
+						"pickupCharges": 50,
+						"userEarning": 2160
+					},
+					"quantity": 1,
+					"negotiated": {
+						"price": 2469,
+						"percentOff": 85,
+						"offerText": "Price has drop from Rs.15999 to Rs.2469",
+						"endTime": "2020-08-07 06:00:00"
+					}
+				},
+				{
+					"default": 0,
+					"sku": "hjc3_2",
+					"variantName": "9",
+					"priceDetails": {
+						"labelPrice": 15999,
+						"listedPrice": 2599,
+						"percentOff": 84,
+						"commisionPercent": 15,
+						"commision": 389,
+						"pickupCharges": 50,
+						"userEarning": 2160
+					},
+					"quantity": 1,
+					"negotiated": {
+						"price": 2469,
+						"percentOff": 85,
+						"offerText": "Price has drop from Rs.15999 to Rs.2469",
+						"endTime": "2020-08-07 06:00:00"
+					}
+				},
+				{
+					"default": 0,
+					"sku": "hjc3_3",
+					"variantName": "7",
+					"priceDetails": {
+						"labelPrice": 15999,
+						"listedPrice": 2599,
+						"percentOff": 84,
+						"commisionPercent": 15,
+						"commision": 389,
+						"pickupCharges": 50,
+						"userEarning": 2160
+					},
+					"quantity": 1,
+					"negotiated": {
+						"price": 2469,
+						"percentOff": 85,
+						"offerText": "Price has drop from Rs.15999 to Rs.2469",
+						"endTime": "2020-08-07 06:00:00"
+					}
+				}
+			],
+			"description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
+			"imageRating": 5,
+			"productUrl": "https://www.coutloot.com/product/818211/nike-joyride-white-trendy-shoes/?share=eyJ0aXRsZSI6Ik5pa2UgSm95cmlkZSBXaGl0ZSBUcmVuZHkgU2hvZXMiLCJpbWFnZVVybCI6Imh0dHBzOi8vY2RuMS5jb3V0bG9vdC5jb20vbGlzdGluZ0ltYWdlcy9pbWFnZV8ycTBwcDE3bnAzOV8xNTk2MTg2ODQxNTQyLmpwZWcifQ==",
+			"varientUrl": "http://server1.coutloot.com/coutlootApp/newSizeChart.php?q=1562351768450"
+		},
+		"category": {
+			"categoryId": 1562351768450,
+			"categoryName": "Running & Sports Shoes",
+			"categoryString": "mens-fashion/footwear/running-sports-shoes"
+		},
+		"assured": 0,
+		"crossBorder": 0,
+		"videoSale": { "status": 0, "videoSaleId": "NA" },
+		"moreColors": [
+			{
+				"productId": 21,
+				"displayImage": "https://coutloot-cdn.gumlet.com/listingImages/image_2q0pp17np39_1596186841542.jpeg?width=350",
+				"price": 1000
+			},
+			{
+				"productId": 21,
+				"displayImage": "https://coutloot-cdn.gumlet.com/listingImages/image_2q0pp17np39_1596186841542.jpeg?width=350",
+				"price": 1000
+			}
+		],
+		"footer": [
+			"https://cdn2.coutloot.com/NewSite/homepage-templates/homeImages/img1.png",
+			"https://cdn2.coutloot.com/NewSite/homepage-templates/homeImages/img2.png",
+			"https://cdn2.coutloot.com/NewSite/homepage-templates/homeImages/img3.png"
+		],
+		"availableOffers": [
+			"10% OFF on online payment.Use code COUT10.",
+			"Cod Available on all order below (INR) 7500."
+		],
+		"terms": [
+			"We deliver your order within 7-12 days of placing it across India.",
+			"Cod Available on all order below (INR) 7500.",
+			"This product is eligible for the Return process."
+		],
+		"similarProducts": "NA"
+	}
+}

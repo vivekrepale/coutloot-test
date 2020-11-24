@@ -1,0 +1,298 @@
+{
+	"products": [
+		{
+			"productId": 826670,
+			"status": "APPROVED",
+			"quantity": 1,
+			"sellerDetails": {
+				"userId": 2054262,
+				"name": "Chauhan Dharmendrabhai",
+				"profilePic": "https://cdn2.coutloot.com/images/newAPP/userProfiles/C.png",
+				"city": "Nadiad",
+				"role": "USER",
+				"verified": 0,
+				"userSlug": "chauhan-dharmendrabhai"
+			},
+			"images": {
+				"mainImages": [
+					"https://coutloot-cdn.gumlet.com/listingImages/image_di42elb9ylm_1596529289636.jpeg?width=500"
+				],
+				"thumbImages": [
+					"https://coutloot-cdn.gumlet.com/listingImages/image_di42elb9ylm_1596529289636.jpeg?width=350"
+				]
+			},
+			"details": {
+				"title": "KE-2012 SPORT SHOES",
+				"condition": "Brand New - With tag",
+				"brand": "OTHER",
+				"variantAttribute": "size",
+				"variants": [
+					{
+						"default": 1,
+						"sku": "hpv2_0",
+						"variantName": "6",
+						"priceDetails": {
+							"labelPrice": 699,
+							"listedPrice": 399,
+							"percentOff": 43,
+							"commision": 59,
+							"userEarning": 290
+						},
+						"quantity": 1
+					},
+					{
+						"default": 0,
+						"sku": "hpv2_1",
+						"variantName": "8",
+						"priceDetails": {
+							"labelPrice": 699,
+							"listedPrice": 399,
+							"percentOff": 43,
+							"commision": 59,
+							"userEarning": 290
+						},
+						"quantity": 1
+					},
+					{
+						"default": 0,
+						"sku": "hpv2_2",
+						"variantName": "9",
+						"priceDetails": {
+							"labelPrice": 699,
+							"listedPrice": 399,
+							"percentOff": 43,
+							"commision": 59,
+							"userEarning": 290
+						},
+						"quantity": 1
+					},
+					{
+						"default": 0,
+						"sku": "hpv2_3",
+						"variantName": "7",
+						"priceDetails": {
+							"labelPrice": 699,
+							"listedPrice": 399,
+							"percentOff": 43,
+							"commision": 59,
+							"userEarning": 290
+						},
+						"quantity": 1
+					}
+				],
+				"imageRating": 5,
+				"assured": 0,
+				"crossBorder": 0,
+				"meetAndBuy": 0,
+				"productUrl": "https://www.coutloot.com/product/826670/ke-2012-sport-shoes/?share=eyJ0aXRsZSI6IktFLTIwMTIgU1BPUlQgU0hPRVMiLCJpbWFnZVVybCI6Imh0dHBzOi8vY2RuMS5jb3V0bG9vdC5jb20vbGlzdGluZ0ltYWdlcy9pbWFnZV9kaTQyZWxiOXlsbV8xNTk2NTI5Mjg5NjM2LmpwZWcifQ==",
+				"productSlug": "ke-2012-sport-shoes"
+			},
+			"productCount": 4,
+			"varientCount": 4,
+			"collection": [],
+			"listedOn": "2020-08-04 13:54:25",
+			"liveOn": "",
+			"serviceType": "Bulk",
+			"uplodedBy": "ANDROID",
+			"offer": 0,
+			"loggedInUser": { "inCart": 0, "inWishlist": 0, "isFollowing": 0 },
+			"productRating": 4
+		},
+		{
+			"productId": 826663,
+			"status": "APPROVED",
+			"quantity": 1,
+			"sellerDetails": {
+				"userId": 2111104,
+				"name": "randeep singh",
+				"profilePic": "https://coutloot-cdn.gumlet.com/profileImages/image_sc8hj60870d_1593681889910.jpeg?width=200",
+				"city": "Ludhiana",
+				"role": "USER",
+				"verified": 0,
+				"userSlug": "randeep-singh"
+			},
+			"images": {
+				"mainImages": [
+					"https://coutloot-cdn.gumlet.com/listingImages/image_e2pmg8rpyo_1596529063707.jpeg?width=500"
+				],
+				"thumbImages": [
+					"https://coutloot-cdn.gumlet.com/listingImages/image_e2pmg8rpyo_1596529063707.jpeg?width=350"
+				]
+			},
+			"details": {
+				"title": "shoes",
+				"condition": "Brand New - With tag",
+				"brand": "OTHER",
+				"variantAttribute": "size",
+				"variants": [
+					{
+						"default": 1,
+						"sku": "hpuv_0",
+						"variantName": "10",
+						"priceDetails": {
+							"labelPrice": 1300,
+							"listedPrice": 700,
+							"percentOff": 46,
+							"commision": 70,
+							"userEarning": 595
+						},
+						"quantity": 2
+					},
+					{
+						"default": 0,
+						"sku": "hpuv_1",
+						"variantName": "8",
+						"priceDetails": {
+							"labelPrice": 1300,
+							"listedPrice": 700,
+							"percentOff": 46,
+							"commision": 70,
+							"userEarning": 595
+						},
+						"quantity": 2
+					},
+					{
+						"default": 0,
+						"sku": "hpuv_2",
+						"variantName": "9",
+						"priceDetails": {
+							"labelPrice": 1300,
+							"listedPrice": 700,
+							"percentOff": 46,
+							"commision": 70,
+							"userEarning": 595
+						},
+						"quantity": 2
+					},
+					{
+						"default": 0,
+						"sku": "hpuv_3",
+						"variantName": "7",
+						"priceDetails": {
+							"labelPrice": 1300,
+							"listedPrice": 700,
+							"percentOff": 46,
+							"commision": 70,
+							"userEarning": 595
+						},
+						"quantity": 2
+					}
+				],
+				"imageRating": 5,
+				"assured": 0,
+				"crossBorder": 0,
+				"meetAndBuy": 0,
+				"productUrl": "https://www.coutloot.com/product/826663/shoes/?share=eyJ0aXRsZSI6InNob2VzIiwiaW1hZ2VVcmwiOiJodHRwczovL2NkbjEuY291dGxvb3QuY29tL2xpc3RpbmdJbWFnZXMvaW1hZ2VfZTJwbWc4cnB5b18xNTk2NTI5MDYzNzA3LmpwZWcifQ==",
+				"productSlug": "shoes"
+			},
+			"productCount": 8,
+			"varientCount": 4,
+			"collection": [],
+			"listedOn": "2020-08-04 13:50:43",
+			"liveOn": "",
+			"serviceType": "Bulk",
+			"uplodedBy": "ANDROID",
+			"offer": 0,
+			"loggedInUser": { "inCart": 0, "inWishlist": 0, "isFollowing": 0 },
+			"productRating": 5
+		},
+		{
+			"productId": 826662,
+			"status": "APPROVED",
+			"quantity": 1,
+			"sellerDetails": {
+				"userId": 2111104,
+				"name": "randeep singh",
+				"profilePic": "https://coutloot-cdn.gumlet.com/profileImages/image_sc8hj60870d_1593681889910.jpeg?width=200",
+				"city": "Ludhiana",
+				"role": "USER",
+				"verified": 0,
+				"userSlug": "randeep-singh"
+			},
+			"images": {
+				"mainImages": [
+					"https://coutloot-cdn.gumlet.com/listingImages/image_j3wcap9m6r_1596529197956.jpeg?width=500"
+				],
+				"thumbImages": [
+					"https://coutloot-cdn.gumlet.com/listingImages/image_j3wcap9m6r_1596529197956.jpeg?width=350"
+				]
+			},
+			"details": {
+				"title": "shoes",
+				"condition": "Brand New - With tag",
+				"brand": "OTHER",
+				"variantAttribute": "size",
+				"variants": [
+					{
+						"default": 1,
+						"sku": "hpuu_0",
+						"variantName": "10",
+						"priceDetails": {
+							"labelPrice": 1300,
+							"listedPrice": 700,
+							"percentOff": 46,
+							"commision": 70,
+							"userEarning": 595
+						},
+						"quantity": 2
+					},
+					{
+						"default": 0,
+						"sku": "hpuu_1",
+						"variantName": "8",
+						"priceDetails": {
+							"labelPrice": 1300,
+							"listedPrice": 700,
+							"percentOff": 46,
+							"commision": 70,
+							"userEarning": 595
+						},
+						"quantity": 2
+					},
+					{
+						"default": 0,
+						"sku": "hpuu_2",
+						"variantName": "9",
+						"priceDetails": {
+							"labelPrice": 1300,
+							"listedPrice": 700,
+							"percentOff": 46,
+							"commision": 70,
+							"userEarning": 595
+						},
+						"quantity": 2
+					},
+					{
+						"default": 0,
+						"sku": "hpuu_3",
+						"variantName": "7",
+						"priceDetails": {
+							"labelPrice": 1300,
+							"listedPrice": 700,
+							"percentOff": 46,
+							"commision": 70,
+							"userEarning": 595
+						},
+						"quantity": 2
+					}
+				],
+				"imageRating": 5,
+				"assured": 0,
+				"crossBorder": 0,
+				"meetAndBuy": 0,
+				"productUrl": "https://www.coutloot.com/product/826662/shoes/?share=eyJ0aXRsZSI6InNob2VzIiwiaW1hZ2VVcmwiOiJodHRwczovL2NkbjEuY291dGxvb3QuY29tL2xpc3RpbmdJbWFnZXMvaW1hZ2VfajN3Y2FwOW02cl8xNTk2NTI5MTk3OTU2LmpwZWcifQ==",
+				"productSlug": "shoes"
+			},
+			"productCount": 8,
+			"varientCount": 4,
+			"collection": [],
+			"listedOn": "2020-08-04 13:50:43",
+			"liveOn": "",
+			"serviceType": "Bulk",
+			"uplodedBy": "ANDROID",
+			"offer": 0,
+			"loggedInUser": { "inCart": 0, "inWishlist": 0, "isFollowing": 0 },
+			"productRating": 4.5
+		}
+	]
+}

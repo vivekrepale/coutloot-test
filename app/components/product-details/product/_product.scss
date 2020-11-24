@@ -1,0 +1,70 @@
+.product-container2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(4, min-content);
+	// grid-gap: 3px;
+	// justify-items: center;
+	background-color: $color-white;
+	padding: 1rem;
+	width: 164px;
+	height: 197px;
+	border-radius: 7px;
+
+	&__image {
+		width: 145px;
+		height: 145px;
+		border-radius: 10px;
+		margin-bottom: 6px;
+	}
+
+	&__name {
+		font-size: 10px;
+		font-weight: 500;
+		color: $color-text-name;
+		letter-spacing: 0px;
+		text-align: left;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+
+	&__price {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		justify-items: center;
+		grid-gap: 5px;
+		align-items: center;
+
+		&__listed {
+			// font: normal normal 600 14px;
+			font-size: 11px;
+			font-weight: 400;
+			color: $color-text-listed;
+			letter-spacing: 0px;
+
+			span {
+				font-size: 7px;
+			}
+
+			&__svg {
+				height: 10px;
+				width: 10px;
+			}
+		}
+
+		&__label {
+			font-size: 9px;
+			font-weight: 500;
+			color: $color-text-label;
+			text-decoration: line-through;
+			letter-spacing: 0px;
+		}
+
+		&__discount {
+			font-size: 9px;
+			font-weight: 500;
+			color: $color-green;
+			letter-spacing: 0px;
+		}
+	}
+}
