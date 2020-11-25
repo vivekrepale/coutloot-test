@@ -1,0 +1,52 @@
+.more-colors-container {
+	display: grid;
+	grid-gap: 14px;
+	padding: 0 16px;
+
+	h2 {
+		font-size: 12px;
+		font-weight: 600;
+		color: $color-text-grey-d;
+	}
+
+	&__items {
+		// background-color: green;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, 63px);
+		grid-gap: 26px;
+
+		&__item {
+			display: grid;
+			justify-items: center;
+			grid-gap: 5px;
+
+			&__image {
+				width: 63px;
+				height: 63px;
+				border-radius: 100%;
+				object-fit: contain;
+				cursor: pointer;
+				outline-offset: 2px;
+				-webkit-outline-radius: 100%;
+				-moz-outline-radius: 100%;
+			}
+
+			&__text {
+				display: grid;
+				grid-auto-flow: column;
+				align-items: center;
+				grid-gap: 3px;
+
+				h3 {
+					font-size: 11px;
+					font-weight: 600;
+					color: #362f2f;
+				}
+				svg {
+					height: 8px;
+					width: 8px;
+				}
+			}
+		}
+	}
+}

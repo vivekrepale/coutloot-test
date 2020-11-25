@@ -13,11 +13,6 @@ const Block = (props) => {
 
 	let styles = blockStyleGenerator();
 
-	// useEffect(() => {
-	// 	styles.push(blockStyleGenerator());
-	// }, []);
-
-	console.log("style", styles);
 	return (
 		<div className="block">
 			<div style={{ ...styles }} className="block__title">

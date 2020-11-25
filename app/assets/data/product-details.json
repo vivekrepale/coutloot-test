@@ -36,48 +36,6 @@
 			],
 			"variants": [
 				{
-					"default": 1,
-					"sku": "hjc3_0",
-					"variantName": "10",
-					"priceDetails": {
-						"labelPrice": 15999,
-						"listedPrice": 2599,
-						"percentOff": 84,
-						"commisionPercent": 15,
-						"commision": 389,
-						"pickupCharges": 50,
-						"userEarning": 2160
-					},
-					"quantity": 1,
-					"negotiated": {
-						"price": 2469,
-						"percentOff": 85,
-						"offerText": "Price has drop from Rs.15999 to Rs.2469",
-						"endTime": "2020-08-05 06:00:00"
-					}
-				},
-				{
-					"default": 0,
-					"sku": "hjc3_1",
-					"variantName": "8",
-					"priceDetails": {
-						"labelPrice": 15999,
-						"listedPrice": 2599,
-						"percentOff": 84,
-						"commisionPercent": 15,
-						"commision": 389,
-						"pickupCharges": 50,
-						"userEarning": 2160
-					},
-					"quantity": 1,
-					"negotiated": {
-						"price": 2469,
-						"percentOff": 85,
-						"offerText": "Price has drop from Rs.15999 to Rs.2469",
-						"endTime": "2020-08-07 06:00:00"
-					}
-				},
-				{
 					"default": 0,
 					"sku": "hjc3_2",
 					"variantName": "9",
@@ -99,13 +57,34 @@
 					}
 				},
 				{
-					"default": 0,
-					"sku": "hjc3_3",
-					"variantName": "7",
+					"default": 1,
+					"sku": "hjc3_0",
+					"variantName": "10",
 					"priceDetails": {
 						"labelPrice": 15999,
-						"listedPrice": 2599,
-						"percentOff": 84,
+						"listedPrice": 2799,
+						"percentOff": 83,
+						"commisionPercent": 15,
+						"commision": 389,
+						"pickupCharges": 50,
+						"userEarning": 2160
+					},
+					"quantity": 1,
+					"negotiated": {
+						"price": 2469,
+						"percentOff": 85,
+						"offerText": "Price has drop from Rs.15999 to Rs.2469",
+						"endTime": "2020-08-05 06:00:00"
+					}
+				},
+				{
+					"default": 0,
+					"sku": "hjc3_1",
+					"variantName": "8",
+					"priceDetails": {
+						"labelPrice": 15999,
+						"listedPrice": 2999,
+						"percentOff": 82,
 						"commisionPercent": 15,
 						"commision": 389,
 						"pickupCharges": 50,
@@ -136,12 +115,12 @@
 		"moreColors": [
 			{
 				"productId": 21,
-				"displayImage": "https://coutloot-cdn.gumlet.com/listingImages/image_2q0pp17np39_1596186841542.jpeg?width=350",
+				"displayImage": "https://coutloot-cdn.gumlet.com/listingImages/image_e2pmg8rpyo_1596529063707.jpeg?width=500",
 				"price": 1000
 			},
 			{
 				"productId": 21,
-				"displayImage": "https://coutloot-cdn.gumlet.com/listingImages/image_2q0pp17np39_1596186841542.jpeg?width=350",
+				"displayImage": "https://coutloot-cdn.gumlet.com/listingImages/image_j3wcap9m6r_1596529197956.jpeg?width=500",
 				"price": 1000
 			}
 		],
@@ -158,7 +137,6 @@
 			"We deliver your order within 7-12 days of placing it across India.",
 			"Cod Available on all order below (INR) 7500.",
 			"This product is eligible for the Return process."
-		],
-		"similarProducts": "NA"
+		]
 	}
 }

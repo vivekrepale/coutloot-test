@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import Block from "./block/Block.js";
 import AvailableOffers from "./available-offers/AvailableOffers.js";
@@ -10,6 +10,7 @@ import Review from "./review/Review.js";
 import SellerDetails from "./seller-details/SellerDetails.js";
 import Footer from "./footer/Footer.js";
 import CTA from "./call-to-action/CTA.js";
+import VariantInfo from "./variant-info/VariantInfo.js";
 
 import data from "../../assets/data/product-details.json";
 import similarProducts from "../../assets/data/selected-products.json";
@@ -29,8 +30,28 @@ const ProductDetails = () => {
 			className="block__title__svg"
 		/>
 	);
+
+	const [selectedVariant, setSelectedVariant] = useState();
+	const [selectedVariantImage, setSelectedVariantImage] = useState();
+
+	useEffect(() => {
+		setSelectedVariant(data.product.details.variants[0]);
+		setSelectedVariantImage(data.product.images.mainImages[0]);
+	}, []);
+
 	return (
 		<div className="pd-container">
+			{selectedVariant ? (
+				<VariantInfo
+					selectedVariant={selectedVariant}
+					setSelectedVariant={setSelectedVariant}
+					selectedVariantImage={selectedVariantImage}
+					setSelectedVariantImage={setSelectedVariantImage}
+					productDetails={data.product}
+				/>
+			) : (
+				""
+			)}
 			<SelectSize />
 			<ProductSpecification
 				productAttributes={data.product.details.productAttributes}

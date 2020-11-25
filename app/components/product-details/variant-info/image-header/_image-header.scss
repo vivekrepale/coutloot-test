@@ -1,0 +1,8 @@
+.image-header-container {
+	padding: 0;
+	&__image {
+		width: 375px;
+		height: 285px;
+		object-fit: cover;
+	}
+}

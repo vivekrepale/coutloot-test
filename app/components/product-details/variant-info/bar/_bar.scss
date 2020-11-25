@@ -1,0 +1,91 @@
+.bar-container {
+	min-height: 28px;
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	border-radius: 15px 15px 0 0;
+	transform: translateY(-12px);
+	background-color: $color-white;
+	padding-right: 16px;
+
+	&__left {
+		display: grid;
+		grid-auto-flow: column;
+
+		&__first,
+		&__second {
+			display: grid;
+			grid-template-columns: max-content max-content;
+			grid-gap: 5px;
+			justify-content: center;
+			align-content: center;
+
+			h2 {
+				font-size: 9px;
+				font-weight: 600;
+				color: $color-white;
+			}
+		}
+
+		&__first {
+			width: 131px;
+			background-image: linear-gradient(
+				to right,
+				$color-bg-red,
+				$color-bg-orange
+			);
+			border-radius: 15px 0 0 0;
+
+			&__svg {
+				transform: rotate(-30deg);
+				height: 15px;
+				width: 15px;
+			}
+		}
+		&__second {
+			width: 116px;
+			background-image: linear-gradient(
+				to right,
+				$color-bg-violet,
+				$color-bg-blue
+			);
+			clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0 100%);
+			transform: translateX(-18px);
+
+			&__image {
+				height: 10px;
+				width: 10px;
+			}
+		}
+	}
+	&__right {
+		display: grid;
+		grid-template-columns: max-content max-content;
+		grid-gap: 16px;
+		align-items: end;
+		justify-self: end;
+
+		&__first-svg {
+			height: 15px;
+			width: 15px;
+			cursor: pointer;
+		}
+
+		&__second {
+			display: grid;
+			justify-items: center;
+			// grid-area: 5px;
+			transform: translateY(10px);
+
+			&__svg {
+				height: 15px;
+				width: 15px;
+				cursor: pointer;
+			}
+			h3 {
+				font-size: 8px;
+				font-weight: 500;
+				color: #76848b;
+			}
+		}
+	}
+}
