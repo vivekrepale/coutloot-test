@@ -15,14 +15,14 @@ const Product = (props) => {
 						stroke="#1c1c1c"
 						className="product-container__price__listed__svg"
 					/>
-					{`${props.listedPrice}`}
+					<h3>{`${props.listedPrice}`}</h3>
 				</div>
-				<div className="product-container__price__label">
+				<h3 className="product-container__price__label">
 					{`(${props.labelPrice})`}
-				</div>
-				<div className="product-container__price__discount">
+				</h3>
+				<h3 className="product-container__price__discount">
 					{`${props.discount}% Off`}
-				</div>
+				</h3>
 			</div>
 			<div className="product-container__name">{props.name}</div>
 			<Rating rating={props.rating} />
