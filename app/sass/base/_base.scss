@@ -39,8 +39,10 @@ body {
 	// color: $color-black;
 	// padding: 1rem;
 	// @include bodyText;
+	// max-width: 375px;
+	// width: 375px;
 
-	@media only screen and (max-width: 57.25em) {
-		padding: 0;
-	}
+	// @media only screen and (max-width: 57.25em) {
+	// 	padding: 0;
+	// }
 }
