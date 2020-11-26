@@ -1,0 +1,13 @@
+function submitCJ14337979X807(formId, url) {
+   var s = "";
+   if (url != null) {
+      s = "<form id=\"" + formId + "\" method=\"post\" action=\"https:\/\/www.anrdoezrs.net\/click-s\" target=\"_top\">\r\n<input type=\"hidden\" name=\"aid\" value=\"14337979\"\/>\r\n<input type=\"hidden\" name=\"pid\" value=\"100155751\"\/><input type=\"hidden\" name=\"url\" value=\"" + url + "\"/></form>";
+   } else {
+      s = "<form id=\"" + formId + "\" method=\"post\" action=\"https:\/\/www.anrdoezrs.net\/click-s\" target=\"_top\">\r\n<input type=\"hidden\" name=\"aid\" value=\"14337979\"\/>\r\n<input type=\"hidden\" name=\"pid\" value=\"100155751\"\/></form>";
+   }
+   var x = document.createElement("div");
+   x.innerHTML = s;
+   document.getElementsByTagName("body")[0].appendChild(x);
+   document.getElementById(formId).submit();
+}
+document.write("<a href=\"javascript:submitCJ14337979X807(\'CJ14337979X807\',null);\"><img src=\"https:\/\/www.yceml.net\/0955\/14337979-1601584231184\" width=\"350\" height=\"250\" alt=\"350x250\" border=\"0\"\/><\/a>");

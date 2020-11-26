@@ -1,0 +1,71 @@
+.flash-sale-container {
+	background-image: linear-gradient(
+		to right,
+		$color-bg-red,
+		$color-bg-orange
+	);
+	// width: 348px;
+	height: 46px;
+	margin: 0 16px;
+	border-radius: 4px;
+	padding: 0 12px;
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	align-content: center;
+	margin-bottom: 12px;
+
+	&__left {
+		display: grid;
+		grid-template-columns: max-content max-content;
+		grid-gap: 10px;
+		align-items: center;
+		height: 100%;
+
+		&__text {
+			color: $color-white;
+			font-size: 13px;
+			font-weight: 600;
+		}
+	}
+
+	&__right {
+		display: grid;
+		grid-template-columns: max-content max-content;
+		justify-self: end;
+		align-items: center;
+		grid-gap: 10px;
+
+		&__button {
+			display: grid;
+			grid-template-columns: max-content max-content;
+			grid-gap: 10px;
+			align-items: center;
+			align-content: center;
+			border: 1px solid $color-white;
+			padding: 0 5px;
+			border-radius: 4px;
+			width: 56px;
+			height: 21px;
+
+			&__text {
+				color: $color-white;
+				font-size: 9px;
+				font-weight: 400;
+			}
+
+			&__dot {
+				background-color: $color-white;
+				height: 4px;
+				width: 4px;
+				border-radius: 100%;
+			}
+		}
+
+		&__svg {
+			height: 20px;
+			width: 20px;
+			transform: rotate(180deg);
+			cursor: pointer;
+		}
+	}
+}

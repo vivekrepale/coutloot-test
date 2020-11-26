@@ -12,7 +12,7 @@ import Footer from "./footer/Footer.js";
 import CTA from "./call-to-action/CTA.js";
 import VariantInfo from "./variant-info/VariantInfo.js";
 
-import data from "../../assets/data/product-details.json";
+import data from "../../assets/data/product-details1.json";
 import similarProducts from "../../assets/data/selected-products.json";
 
 import SvgDilevery from "../../assets/svg/SvgDilevery.js";

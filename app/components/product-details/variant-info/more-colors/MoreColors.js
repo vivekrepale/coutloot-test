@@ -9,25 +9,29 @@ const MoreColors = (props) => {
 			<h2>More Colors</h2>
 			<div className="more-colors-container__items">
 				<div className="more-colors-container__items__item">
-					<img
+					<div
 						style={
 							selected == "0"
-								? { outline: "2px solid #E3414F" }
+								? { border: "1.5px solid #E3414F" }
 								: {}
 						}
-						src={props.productDetails.images.mainImages[0]}
-						alt="Coutloot: variant-image"
-						className="more-colors-container__items__item__image"
-						onClick={() => {
-							props.setSelectedVariant(
-								props.productDetails.details.variants[0]
-							);
-							props.setSelectedVariantImage(
-								props.productDetails.images.mainImages[0]
-							);
-							setSelected(0);
-						}}
-					/>
+						className="more-colors-container__items__item__image-container"
+					>
+						<img
+							src={props.productDetails.images.mainImages[0]}
+							alt="Coutloot: variant-image"
+							className="more-colors-container__items__item__image-container__image"
+							onClick={() => {
+								props.setSelectedVariant(
+									props.productDetails.details.variants[0]
+								);
+								props.setSelectedVariantImage(
+									props.productDetails.images.mainImages[0]
+								);
+								setSelected(0);
+							}}
+						/>
+					</div>
 					<div className="more-colors-container__items__item__text">
 						<SvgRupee fill="#362F2F" />
 						<h3>
@@ -39,25 +43,32 @@ const MoreColors = (props) => {
 					</div>
 				</div>
 				<div className="more-colors-container__items__item">
-					<img
+					<div
 						style={
 							selected == "1"
-								? { outline: "2px solid #E3414F" }
+								? { border: "1.5px solid #E3414F" }
 								: {}
 						}
-						src={props.productDetails.moreColors[0].displayImage}
-						alt="Coutloot: variant-image"
-						className="more-colors-container__items__item__image"
-						onClick={() => {
-							props.setSelectedVariant(
-								props.productDetails.details.variants[1]
-							);
-							props.setSelectedVariantImage(
+						className="more-colors-container__items__item__image-container"
+					>
+						<img
+							src={
 								props.productDetails.moreColors[0].displayImage
-							);
-							setSelected(1);
-						}}
-					/>
+							}
+							alt="Coutloot: variant-image"
+							className="more-colors-container__items__item__image-container__image"
+							onClick={() => {
+								props.setSelectedVariant(
+									props.productDetails.details.variants[1]
+								);
+								props.setSelectedVariantImage(
+									props.productDetails.moreColors[0]
+										.displayImage
+								);
+								setSelected(1);
+							}}
+						/>
+					</div>
 					<div className="more-colors-container__items__item__text">
 						<SvgRupee fill="#362F2F" />
 						<h3>
@@ -69,25 +80,32 @@ const MoreColors = (props) => {
 					</div>
 				</div>
 				<div className="more-colors-container__items__item">
-					<img
+					<div
 						style={
 							selected == "2"
-								? { outline: "2px solid #E3414F" }
+								? { border: "1.5px solid #E3414F" }
 								: {}
 						}
-						src={props.productDetails.moreColors[1].displayImage}
-						alt="Coutloot: variant-image"
-						className="more-colors-container__items__item__image"
-						onClick={() => {
-							props.setSelectedVariant(
-								props.productDetails.details.variants[2]
-							);
-							props.setSelectedVariantImage(
+						className="more-colors-container__items__item__image-container"
+					>
+						<img
+							src={
 								props.productDetails.moreColors[1].displayImage
-							);
-							setSelected(2);
-						}}
-					/>
+							}
+							alt="Coutloot: variant-image"
+							className="more-colors-container__items__item__image-container__image"
+							onClick={() => {
+								props.setSelectedVariant(
+									props.productDetails.details.variants[2]
+								);
+								props.setSelectedVariantImage(
+									props.productDetails.moreColors[1]
+										.displayImage
+								);
+								setSelected(2);
+							}}
+						/>
+					</div>
 					<div className="more-colors-container__items__item__text">
 						<SvgRupee fill="#362F2F" />
 						<h3>

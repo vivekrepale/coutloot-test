@@ -76,6 +76,16 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: ["file-loader"],
       },
+      {
+        test: /\.json5$/i,
+        loader: "json5-loader",
+        type: "javascript/auto",
+      },
+      // {
+      //   test: /\.json$/,
+      //   loader: "json-loader",
+      // },
+      // { type: "javascript/auto", test: /\.json$/, use: "file-loader" },
     ],
   },
 };

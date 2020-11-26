@@ -1,6 +1,6 @@
 import React from "react";
 
-import data from "./product-details.json";
+import data from "./product-details1.json";
 
 import SvgDilevery from "../svg/SvgDilevery.js";
 import SvgReturn from "../svg/SvgReturn.js";

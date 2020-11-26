@@ -1,8 +1,59 @@
 .image-header-container {
 	padding: 0;
+	position: relative;
+
 	&__image {
 		width: 375px;
 		height: 285px;
 		object-fit: cover;
+	}
+
+	&__header {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 16px;
+		display: grid;
+		grid-template-columns: max-content 1fr;
+		width: 100%;
+
+		&__svg-container {
+			background-color: #ffffff8e;
+			width: 27px;
+			height: 27px;
+			border-radius: 100%;
+			display: grid;
+			justify-items: center;
+			align-items: center;
+			cursor: pointer;
+
+			&__svg {
+				height: 15px;
+				width: 15px;
+			}
+		}
+
+		&__right {
+			justify-self: end;
+			display: grid;
+			grid-auto-flow: column;
+			grid-gap: 16px;
+
+			&__svg-container {
+				background-color: #ffffff8e;
+				width: 27px;
+				height: 27px;
+				border-radius: 100%;
+				display: grid;
+				justify-items: center;
+				align-items: center;
+				cursor: pointer;
+
+				&__svg {
+					height: 15px;
+					width: 15px;
+				}
+			}
+		}
 	}
 }

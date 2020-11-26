@@ -19,16 +19,23 @@
 			display: grid;
 			justify-items: center;
 			grid-gap: 5px;
+			background-color: transparent;
 
-			&__image {
-				width: 63px;
-				height: 63px;
+			&__image-container {
+				display: grid;
+				justify-content: center;
+				align-content: center;
 				border-radius: 100%;
-				object-fit: contain;
-				cursor: pointer;
-				outline-offset: 2px;
-				-webkit-outline-radius: 100%;
-				-moz-outline-radius: 100%;
+				width: 68px;
+				height: 68px;
+
+				&__image {
+					width: 62px;
+					height: 62px;
+					border-radius: 100%;
+					object-fit: contain;
+					cursor: pointer;
+				}
 			}
 
 			&__text {

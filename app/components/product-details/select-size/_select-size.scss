@@ -4,15 +4,15 @@
 	grid-gap: 11px;
 
 	&__button {
-		background-color: $color-light-grey;
-		color: $color-heart-black;
 		font-size: 12px;
 		font-weight: 600;
 		// padding: 1rem;
 		width: 80px;
 		height: 34px;
-		border: 0.5px solid $color-heart-black;
 		border-radius: 4px;
+		// border: 0.5px solid $color-heart-black;
+		// background-color: $color-light-grey;
+		// color: $color-heart-black;
 		cursor: pointer;
 	}
 }

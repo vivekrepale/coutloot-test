@@ -4,6 +4,8 @@ import ImageHeader from "./image-header/ImageHeader.js";
 import Bar from "./bar/Bar.js";
 import MoreColors from "./more-colors/MoreColors.js";
 import ProductInfo from "./product-info/ProductInfo.js";
+import FlashSale from "./flash-sale/FlashSale.js";
+import Timer from "./timer/Timer.js";
 
 const VariantInfo = (props) => {
 	const {
@@ -23,6 +25,8 @@ const VariantInfo = (props) => {
 				name={props.productDetails.details.title}
 			/>
 			<hr />
+			<Timer selectedVariant={props.selectedVariant} />
+			<hr />
 			<MoreColors
 				// selectedVariantImage={props.selectedVariantImage}
 				setSelectedVariant={props.setSelectedVariant}
@@ -30,15 +34,9 @@ const VariantInfo = (props) => {
 				productDetails={props.productDetails}
 			/>
 			<hr />
+			<FlashSale />
 		</div>
 	);
 };
 
 export default VariantInfo;
-
-/*<ProductInfo
-				listedPrice={props.selectedVariant.priceDetails.listedPrice}
-				labelPrice={props.selectedVariant.priceDetails.labelPrice}
-				discount={props.selectedVariant.priceDetails.percentOff}
-				name={props.productDetails.details.title}
-			/>*/

@@ -4,7 +4,7 @@ const Filters = () => {
 	return (
 		<div className="filters-container">
 			<div className="filters-container__block">
-				<label for="cars">
+				<label>
 					<h3 className="filters-container__block__text">Sort by</h3>
 				</label>
 
@@ -21,7 +21,7 @@ const Filters = () => {
 				</select>
 			</div>
 			<div className="filters-container__block middle">
-				<label for="cars">
+				<label>
 					<h3 className="filters-container__block__text">Filters</h3>
 				</label>
 				<select className="select" name="filters" id="filters">
@@ -40,7 +40,7 @@ const Filters = () => {
 				</select>
 			</div>
 			<div className="filters-container__block">
-				<label for="cars">
+				<label>
 					<h3 className="filters-container__block__text">Nearby</h3>
 				</label>
 				<select className="select" name="near by" id="near by">
