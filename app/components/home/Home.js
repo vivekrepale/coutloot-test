@@ -18,6 +18,10 @@ const Home = (props) => {
 			>
 				Product Details
 			</button>
+			<p>
+				Due to CORS error I wasn't directly able to access your API, so
+				I created a JSON file of data.
+			</p>
 		</div>
 	);
 };

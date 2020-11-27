@@ -5,4 +5,11 @@
 	grid-gap: 3rem;
 	align-content: center;
 	justify-content: center;
+	justify-items: center;
+
+	p {
+		width: 250px;
+		color: green;
+		font-size: 13px;
+	}
 }

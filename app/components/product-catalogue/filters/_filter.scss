@@ -15,29 +15,38 @@
 	grid-gap: 2px;
 	grid-template-columns: repeat(3, 1fr);
 	justify-items: start;
-	// align-items: center;
-	justify-content: start;
+	align-items: center;
 	align-content: center;
 	z-index: 100;
 
 	&__block {
 		height: 100%;
 		width: 100%;
-		text-align: center;
+		padding-left: 25px;
+		// text-align: center;
+		// justify-self: start;
+		// justify-content: start;
+		display: grid;
 
 		h3 {
 			font-size: 12px;
 			font-weight: 600;
 			letter-spacing: 0px;
-			color: $color-text-black;
+			// color: $color-text-black;
 		}
 	}
 }
 
+.middle {
+	border-left: 2px solid #f4f5f9;
+	border-right: 2px solid #f4f5f9;
+}
+
 .select {
-	width: 40px;
+	// width: 60px;
 	height: 13px;
-	padding: 0 3px;
+	// padding: 0 3px;
+	padding-right: 55%;
 	font-size: 10px;
 	font-weight: 500;
 	border: none;
@@ -47,10 +56,12 @@
 	appearance: none;
 	background-image: url("https://img.icons8.com/fluent-systems-filled/48/000000/expand-arrow.png");
 	background-repeat: no-repeat;
-	background-position: 120% 150%;
+	background-position: 50% 150%;
 	background-size: 10px 10px;
 	background-attachment: fixed;
 	cursor: pointer;
+	text-overflow: ellipsis;
+	transform: translateX(-4px);
 
 	&__options {
 		// padding: 5px 20px;
