@@ -10,8 +10,8 @@ function SvgComponent(props) {
 			{...props}
 		>
 			<circle
-				fill="#4FBA6F"
-				stroke="none"
+				fill={props.fill || "none"}
+				stroke={props.stroke || "none"}
 				strokeWidth={2}
 				strokeMiterlimit={10}
 				cx={32}

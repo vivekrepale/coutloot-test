@@ -22,10 +22,15 @@ const Navbar = (props) => {
 					className="navbar-container__right__svg"
 					fill="#727C90"
 				/>
-				<SvgShoppingCart
-					className="navbar-container__right__svg cart"
-					fill="#727C90"
-				/>
+				<div className="navbar-container__right__svg-container">
+					<SvgShoppingCart
+						className="navbar-container__right__svg cart"
+						fill="#727C90"
+					/>
+					<div>
+						<h2>12</h2>
+					</div>
+				</div>
 				<SvgThreeDots
 					className="navbar-container__right__svg"
 					fill="#727C90"

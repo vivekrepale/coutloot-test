@@ -5,7 +5,6 @@
 @import "base/base";
 
 @import "utilities/button";
-@import "utilities/toggle-button";
 
 @import "../layout/_layout.scss";
 
@@ -16,6 +15,7 @@
 @import "../components/product-catalogue/product/rating/_rating.scss";
 @import "../components/product-catalogue/navbar/_navbar.scss";
 @import "../components/product-catalogue/filters/_filter.scss";
+@import "../components/product-catalogue/toggle-button/_toggle-button.scss";
 
 @import "../components/product-details/_product-details.scss";
 @import "../components/product-details/block/_block.scss";
@@ -30,6 +30,7 @@
 @import "../components/product-details/similar-products/_similar-products.scss";
 @import "../components/product-details/product/_product.scss";
 @import "../components/product-details/variant-info/_variant-info.scss";
+@import "../components/product-details/sticky-header/_sticky-header.scss";
 
 @import "../components/product-details/variant-info/product-info/_product-info.scss";
 @import "../components/product-details/variant-info/more-colors/_more-colors.scss";

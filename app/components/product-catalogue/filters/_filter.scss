@@ -14,9 +14,11 @@
 	display: grid;
 	grid-gap: 2px;
 	grid-template-columns: repeat(3, 1fr);
-	// justify-items: center;
+	justify-items: start;
 	// align-items: center;
+	justify-content: start;
 	align-content: center;
+	z-index: 100;
 
 	&__block {
 		height: 100%;
@@ -33,7 +35,7 @@
 }
 
 .select {
-	width: 59px;
+	width: 40px;
 	height: 13px;
 	padding: 0 3px;
 	font-size: 10px;
@@ -45,7 +47,7 @@
 	appearance: none;
 	background-image: url("https://img.icons8.com/fluent-systems-filled/48/000000/expand-arrow.png");
 	background-repeat: no-repeat;
-	background-position: 80% 150%;
+	background-position: 120% 150%;
 	background-size: 10px 10px;
 	background-attachment: fixed;
 	cursor: pointer;
@@ -57,11 +59,5 @@
 		font-weight: 500;
 		// border: none;
 		// background-color: $color-bg-orange;
-	}
-}
-
-.middle {
-	&:before,
-	&:after {
 	}
 }

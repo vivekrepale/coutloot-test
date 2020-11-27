@@ -11,6 +11,7 @@ import SellerDetails from "./seller-details/SellerDetails.js";
 import Footer from "./footer/Footer.js";
 import CTA from "./call-to-action/CTA.js";
 import VariantInfo from "./variant-info/VariantInfo.js";
+import StickyHeader from "./sticky-header/StickyHeader.js";
 
 import data from "../../assets/data/product-details1.json";
 import similarProducts from "../../assets/data/selected-products.json";
@@ -41,6 +42,7 @@ const ProductDetails = () => {
 
 	return (
 		<div className="pd-container">
+			<StickyHeader name={data.product.details.title} />
 			{selectedVariant ? (
 				<VariantInfo
 					selectedVariant={selectedVariant}

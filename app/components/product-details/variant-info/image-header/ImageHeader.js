@@ -26,7 +26,7 @@ const ImageHeader = (props) => {
 						<SvgShoppingCart
 							fill="#fff"
 							// stroke="#fff"
-							className="image-header-container__header__right__svg-container__svg"
+							className="image-header-container__header__right__svg-container__svg cart"
 						/>
 					</div>
 					<div className="image-header-container__header__right__svg-container">

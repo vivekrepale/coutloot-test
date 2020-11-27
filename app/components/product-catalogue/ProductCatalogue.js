@@ -12,6 +12,7 @@ import SvgCircleCheck from "../../assets/svg/SvgCircleCheck.js";
 
 const ProductCatalogue = () => {
 	const [products, setProducts] = useState([]);
+	const [assured, setAssured] = useState(false);
 
 	return (
 		<div className="pc-container">
@@ -19,12 +20,12 @@ const ProductCatalogue = () => {
 			<Filters />
 			<div className="pc-container__assured-products-check">
 				<SvgCircleCheck
-					fill="#4FBA6F"
+					fill={assured ? "#4FBA6F" : "#ccc"}
 					className="pc-container__assured-products-check__svg"
 				/>
 				<h2>Show the assured products only</h2>
 				<div className="pc-container__assured-products-check__toggle-button">
-					<ToggleButton />
+					<ToggleButton assured={assured} setAssured={setAssured} />
 				</div>
 			</div>
 			<div className="pc-container__products">

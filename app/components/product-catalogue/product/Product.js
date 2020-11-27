@@ -3,11 +3,23 @@ import React, { useState } from "react";
 import Rating from "./rating/Rating.js";
 
 import SvgRupee from "../../../assets/svg/SvgRupee.js";
+import SvgHeart from "../../../assets/svg/SvgHeart.js";
 
 const Product = (props) => {
+	const [liked, setLiked] = useState(false);
 	return (
 		<div className="product-container">
-			<img className="product-container__image" src={props.image} />
+			<div className="product-container__image">
+				<img src={props.image} />
+				<div className="product-container__image__svg-container">
+					<SvgHeart
+						fill={liked ? "#EB2D2D" : "#fff"}
+						stroke={liked ? "#FA1B1C" : "#76848B"}
+						className="product-container__image__svg-container__svg"
+						onClick={() => setLiked((prevState) => !prevState)}
+					/>
+				</div>
+			</div>
 			<div className="product-container__price">
 				<div className="product-container__price__listed">
 					<SvgRupee

@@ -8,16 +8,47 @@
 	padding: 1.5rem;
 
 	&__image {
+		// width: 145px;
+		// height: 145px;
+		// border-radius: 10px;
+		// margin-bottom: 6px;
 		width: 155px;
 		height: 160px;
 		border-radius: 10px;
 		margin-bottom: 6px;
+		position: relative;
+
+		img {
+			width: 155px;
+			height: 160px;
+			border-radius: 10px;
+			// margin-bottom: 6px;
+		}
+
+		&__svg-container {
+			width: 25px;
+			height: 25px;
+			border-radius: 100%;
+			background-color: #fff;
+			position: absolute;
+			top: 7px;
+			right: 7px;
+			display: grid;
+			justify-content: center;
+			align-content: center;
+
+			&__svg {
+				width: 13px;
+				height: 12px;
+				cursor: pointer;
+			}
+		}
 	}
 
 	&__price {
 		display: grid;
 		grid-template-columns: repeat(3, max-content);
-		grid-gap: 5px;
+		grid-gap: 8px;
 		align-items: center;
 
 		&__listed {
@@ -47,6 +78,7 @@
 		}
 
 		&__discount {
+			width: 36px;
 			font-size: 9px;
 			font-weight: 500;
 			color: $color-green;
@@ -55,6 +87,7 @@
 	}
 
 	&__name {
+		width: 124px;
 		font-size: 12px;
 		font-weight: 600;
 		color: $color-text-name;
